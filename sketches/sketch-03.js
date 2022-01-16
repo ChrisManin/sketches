@@ -17,7 +17,7 @@ const settings = {
 const sketch = ({ context, width, height }) => {
   const agents = []
 
-  for (let i = 0; i < 40; i++) {
+  for (let i = 0; i < 50; i++) {
     const x = random.range(0, width)
     const y = random.range(0, height)
 
